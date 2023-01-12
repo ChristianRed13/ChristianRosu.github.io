@@ -1,0 +1,40 @@
+@font-face { 
+    font-family: Quicksand; font-style: normal; font-weight: 400; src: url('fonts/Quicksand-Regular.ttf'); 
+}
+@font-face { 
+    font-family: Quicksand; font-style: normal; font-weight: 700; src: url('fonts/Quicksand-Bold.ttf'); 
+}
+*{
+    font-family: Quicksand;
+}
+.img-blue{
+    position: absolute;
+}
+.text-content{
+    overflow: hidden;
+}
+.card-img-top {
+    width: 100%;
+    height: 19vw;
+    object-fit: cover;
+}
+.icons{
+    min-height: 30vw;
+}
+.a{
+    color: white;
+}
+.carousel-item{
+    width: 100%;
+    height: 45vw;
+    object-fit: cover;
+}
+.collapse-icon{
+    width: 60px;
+    height: 60px;
+    object-fit: fill;
+    padding: 5px;
+}
+.card:hover h4 {
+    color: rgb(218, 218, 218);
+  }
